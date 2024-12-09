@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fce4ec; /* Warna pastel pink lembut */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fffaf0; /* Warna pastel coklat muda */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f8bbd0; /* Warna pastel pink tua */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #6d4c41; /* Warna coklat untuk teks */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #d7ccc8; /* Warna pastel coklat muda */
+    background-color: #f48fb1; /* Warna pastel pink terang */
+    transform: scale(1.05);
+}
+
+nav a i {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #4e342e; /* Warna coklat tua */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff3e0; /* Warna pastel coklat lembut */
+}
+
+table, th, td {
+    border: 1px solid #d7ccc8; /* Warna coklat terang */
+}
+
+th {
+    background-color: #f8bbd0; /* Warna pastel pink */
+    color: #4e342e;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    color: #6d4c41;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-add {
+    background-color: #ce93d8; /* Warna pastel ungu-pink */
+}
+
+.btn-delete {
+    background-color: #ef9a9a; /* Warna pastel pink merah */
+}
+
+/* Tombol edit dan hapus */
+table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+table td a[href*="edit"] {
+    background-color: #f48fb1; /* Warna pastel pink terang */
+}
+
+table td a[href*="#"] {
+    background-color: #e57373; /* Warna pastel merah lembut */
+}
+
+table td a:hover {
+    opacity: 0.8;
+}
